@@ -1,0 +1,19 @@
+<div>
+<if true>
+if
+</if><else>
+else
+</else>
+
+<loop 10>
+loop
+</loop>
+
+<"loop">
+if we want html element with name loop
+</"loop">
+
+<div/>
+
+attributes:
+<img :src=$variable>

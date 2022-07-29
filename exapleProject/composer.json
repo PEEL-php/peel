@@ -1,0 +1,13 @@
+{
+    "name": "matri/exaple-project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mateusz Krawczyk",
+            "email": "mateusz.krawczyk@green-code.studio"
+        }
+    ],
+    "require": {
+        "peel/builder": "^0.1.0"
+    }
+}

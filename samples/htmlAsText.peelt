@@ -1,0 +1,14 @@
+<div>
+<?peel
+//some peel code
+?>
+
+<?php
+//some php code
+?>
+
+{{variableWithHtmlspecialchars}}
+<<variableRaw>>
+
+<?=$phpVariable?>
+</div>

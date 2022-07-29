@@ -1,0 +1,13 @@
+function a(){
+return 1;
+}
+
+function b(){
+$ret = 1;
+return $ret;
+}
+
+$callable1=function (x){
+return x+2;
+}
+$callable2 = x=>x+2;

@@ -1,0 +1,7 @@
+standard = 'some string';
+standard2 = "some string";
+withVariables = "$standard ${standard2} ${2+2}";
+
+//string has wrapper object (like JS)
+length=withVariables->slice(2)->length;
+

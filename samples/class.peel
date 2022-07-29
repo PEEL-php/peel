@@ -1,0 +1,11 @@
+class c1{
+    constructor(){
+
+    }
+    met1(){
+
+    }
+    met2(a,b){
+        return a+b;
+    }
+}

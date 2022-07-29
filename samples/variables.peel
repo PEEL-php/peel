@@ -1,0 +1,22 @@
+a=1;//int
+b=2.34;//float
+c="string";//string
+
+//dynamic typing
+changing=1;
+changing="string";
+changing=new StdClass();
+
+staticTyped: string = "a";//optional static typing (like TS)
+unionType: int|array=[];//union types
+specificValues:"a"|"b"|false=false;
+nullable: string? = null;
+notNullable: !null;//any value other that null
+
+//testing bad values
+try{
+staticTyped=1;
+unionType=null;
+specificValues="c";
+notNullable=null;
+}catch{}

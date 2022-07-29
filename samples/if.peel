@@ -1,0 +1,8 @@
+if(true){
+echo "if";
+}else if (false){
+echo "else if"}
+else{
+echo "else"
+}
+

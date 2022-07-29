@@ -1,0 +1,11 @@
+normal=["a","b","c"]
+
+echo normal[2];
+
+assoc=["a":"A","b":"B",c:"C"];
+echo assoc["a"];
+echo assoc->a;//the same like in JS
+
+obj=new {"a":"A","b":"B",c:"C"};//stdclass
+echo obj->a;
+echo obj["a"];

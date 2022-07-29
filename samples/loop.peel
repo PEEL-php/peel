@@ -1,0 +1,32 @@
+while(false){
+echo "while";
+}
+
+do{
+echo "do while";
+}while(false);
+
+for(i=0;i<10;i++){
+echo "for"
+}
+
+arr=[1,2,3];
+foreach(arr as key:value){
+echo "foreach";
+}
+
+foreach(0..9 as i){
+echo "alt i"
+}
+
+loop(10){
+echo "loop"
+}
+
+for(;;){
+    while(true){
+        loop(1){
+            break 3;
+        }
+    }
+}
